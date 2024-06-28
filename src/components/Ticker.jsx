@@ -1,3 +1,4 @@
+import "../styles/Ticker.css";
 import React, { useEffect } from 'react';
 
 function Ticker() {
@@ -47,7 +48,7 @@ function Ticker() {
     <div style={tickerStyle} className="tradingview-widget-container">
       <div className="tradingview-widget-container__widget"></div>
       <div className="tradingview-widget-container__widget"></div>
-      <div className="tradingview-widget-copyright">
+      <div>
         <a href="https://www.tradingview.com/" rel="noopener noreferrer" target="_blank">
         </a>
       </div>

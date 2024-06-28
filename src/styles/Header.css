@@ -308,8 +308,10 @@ padding-bottom: 50px;
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust the positioning to truly center */
   color: white; /* Text color */
-  font-size: 24px; /* Text size */
-  font-weight: bold; /* Text weight */
+  font-size: 54px;
+  font-weight: bold;
+  padding-bottom: 1000px;
+  font-style: italic;
 }
 
 .subnav-hero-section {
