@@ -11,10 +11,10 @@ function Landing() {
         // this <> acts as a parent div
         <>
       <Header />
-      <TradingViewWidget />
       <Ticker />
-      <Reviews />
+      <TradingViewWidget />
       <Chatbot />
+      <Reviews />
       <Stripe />
       <Footer />
         </>
