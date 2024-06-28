@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from "../components/Header";
+import Ticker from "../components/Ticker";
 import Footer from "../components/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLock, faUser } from '@fortawesome/free-solid-svg-icons';
@@ -8,6 +9,7 @@ function Signin() {
   return (
     <>
       <Header />
+      <Ticker />
       <div className="signin-background">
         <div className="container d-flex align-items-center justify-content-center" style={{ minHeight: "50vh", marginTop: "10px", display: "grid", backgroundColor: "white"}}>
           <div className="card p-5 m-2" style={{ maxWidth: "400px", width: "100%", backgroundColor: "lightgray" }}>
@@ -73,6 +75,7 @@ function Signin() {
         </div>
       </div>
       <Footer />
+
     </>
   );
 }

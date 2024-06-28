@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Ticker from "../components/Ticker";
 import Footer from "../components/Footer";
 import TradingViewWidget from "../components/TradingViewWidget";
 import Reviews from "../components/Reviews";
@@ -11,6 +12,7 @@ function Landing() {
         <>
       <Header />
       <TradingViewWidget />
+      <Ticker />
       <Reviews />
       <Chatbot />
       <Stripe />
