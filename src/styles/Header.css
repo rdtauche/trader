@@ -290,12 +290,13 @@ padding-bottom: 50px;
 }
 
 .subnav-hero-section3 {
-  width: 100%; /* Ensure the header spans the full width */
+  position: relative;
+  text-align: center; /* Center the image */
 }
 
 #logo3 {
-  width: 100%; /* Make the image span the full width of its parent */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Adjust based on your needs */
+  height: auto; /* Adjust based on your needs */
 }
 
 .div1 {
@@ -337,29 +338,23 @@ color: #faf8f8;
 }
 
 .subnav-hero-subnav {
-float: none;
-position: absolute;
-text-align: center;
-margin: 0 auto;
-bottom: 0;
-width: 100%;
-padding-left: 0px;
+  position: absolute;
+  top: 0; /* Adjust based on your needs */
+  left: 50%; /* Center the ul */
+  transform: translateX(-50%); /* Center the ul */
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  font-size: 20px;
 }
 
 .subnav-hero-subnav li {
-float: none;
-display: inline-block;
+  display: inline; /* Display links in a row */
+  margin: 0 10px; /* Spacing between links */
 }
 
 .subnav-hero-subnav li a {
-padding: 0.9rem 1rem;
-font-size: 0.75rem;
-color: black;
-text-transform: uppercase;
-display: block;
-font-weight: bold;
-letter-spacing: 1px;
-transition: all 0.35s ease-in-out;
+  color: white; /* Adjust text color based on your needs */
+  text-decoration: none; /* Remove underline from links */
 }
 
 .subnav-hero-subnav li a.is-active {

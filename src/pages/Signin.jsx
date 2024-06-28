@@ -11,10 +11,10 @@ function Signin() {
       <Header />
       <Ticker />
       <div className="signin-background">
-        <div className="container d-flex align-items-center justify-content-center" style={{ minHeight: "50vh", marginTop: "10px", display: "grid", backgroundColor: "white"}}>
-          <div className="card p-5 m-2" style={{ maxWidth: "400px", width: "100%", backgroundColor: "lightgray" }}>
+        <div className="container d-flex align-items-center justify-content-center" style={{ minHeight: "50vh", marginTop: "10px", flexDirection: "column", backgroundColor: "white"}}>
+          <div className="card p-5 m-2" style={{ maxWidth: "800px", width: "100%", backgroundColor: "black", color: "white" }}>
             <div className="card-body">
-              <h2 className="card-title text-center mb-4" style={{ fontFamily: "Poppins, sans-serif" }}>Login</h2>
+              <h2 className="card-title text-center mb-4" style={{ fontFamily: "Poppins, sans-serif", color: "white" }}>Login</h2>
               <form className="login-form">
                 <div className="form-group mb-3">
                   <div className="input-group">
@@ -38,9 +38,9 @@ function Signin() {
               </form>
             </div>
           </div>
-          <div className="card p-5 m-2" style={{ maxWidth: "400px", width: "100%", backgroundColor: "lightgray"  }}>
+          <div className="card p-5 m-2" style={{ maxWidth: "800px", width: "100%", backgroundColor: "black", color: "white" }}>
             <div className="card-body">
-              <h2 className="card-title text-center mb-4" style={{ fontFamily: "Poppins, sans-serif" }}>Register Today!</h2>
+              <h2 className="card-title text-center mb-4" style={{ fontFamily: "Poppins, sans-serif", color: "white" }}>Register Today!</h2>
               <form className="signup-form" action="/register" method="POST">
                 <div className="form-group mb-3">
                   <div className="input-group">
